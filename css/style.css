@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(71,171,154);
+    background: linear-gradient(0deg, rgba(71,171,154,1) 0%, rgba(0,0,0,1) 100%);
+    width: 100vw;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    width: 100vw;
+    padding: 10px 20px;
+    font-weight: 800;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    border-bottom: 1px solid rgb(124, 175, 175);
+}
+
+.header span {
+    color: rgb(124, 175, 175);
+}
+
+.header .icons {
+    margin-top: 5px;
+}
+
+header .icons img{
+    margin: 0 5px;
+    width: 20px;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: -40px;
+    width: 90%;
+    color: white;
+}
+
+.container .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+.container .content .text {
+    width: 50%;
+}
+
+.container .content h3{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.container .content h1{
+    color: rgb(124, 175, 175);
+    font-size: 2rem;
+}
+
+.container .content img {
+    width: 400px;
+}
+
+.menu{
+    width: 400px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu .linkMenu {
+    text-decoration: none;
+    width: 90px;
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: rgb(124, 175, 175);
+    font-weight: 800;
+    border-radius: 7px;
+    transition: 500ms;
+    font-size: 80%;
+    margin: 10px 0;
+}
+
+.menu .linkMenu:hover{
+    background-color: rgb(213, 234, 235);
+}
+
+/*-----------------------------------------*/
+.container .projects {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.158);
+    border-radius: 10px;
+}
+.container .projects .cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+}
+
+.container .projects .cards .cardProjects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border-radius: 10px;
+    padding: 10px;
+    height: 300px;
+    width: 210px;
+    background-color: white;
+    color: rgb(14, 51, 19);
+    margin: 10px 0;
+}
+
+.container .projects .cards .cardProjects img{
+    margin: 5px 0;
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+}
+
+.container .projects .cards .cardProjects .footerCard{
+    width: 100%;
+}
+.container .projects .cards .cardProjects .footerCard .textCard{
+    display: flex;
+    line-height: 18px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}

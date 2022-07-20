@@ -14,7 +14,6 @@ body {
     background: rgb(71,171,154);
     background: linear-gradient(0deg, rgba(71,171,154,1) 0%, rgba(0,0,0,1) 100%);
     width: 100vw;
-    height: 100%;
 }
 
 .header {
@@ -49,7 +48,6 @@ header .icons img{
     display: flex;
     flex-direction: column;
     padding: 30px;
-    border-radius: 10px;
     margin-top: -40px;
     width: 90%;
     color: white;
@@ -204,7 +202,7 @@ header .icons img{
 .container .formation{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     padding: 30px;
 }
@@ -228,4 +226,95 @@ header .icons img{
     position: fixed;
     bottom: 20px;
     right: 20px;
+}
+
+@media only screen and (max-width: 940px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        display: block;
+    }
+    .header {
+        width: 100%;
+        height: 120px;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .container{
+        align-items: center;
+        margin: 0;
+        width: 100%;
+        padding: 30px 10px;
+        height: 100%;
+    }
+    .container .content {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .container .content .text{      
+        flex-direction: column;  
+        width: 100%;
+    }
+    .container .content .text h1{
+        display: block;
+        font-size: 1.5rem;
+    }
+    .container .content .text h3 {
+        font-size: 1rem;
+    }
+    .menu{
+        display: none;
+    }
+    .container .content .text p{
+        margin: 0;
+        width: 100%;
+        min-width: 320px;
+    }
+    .container .content img{
+        width: 100%;
+    }
+    /*-------------------------*/
+  
+    .container .projects{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        width: 100%;
+        height: 2000px;
+        margin-bottom: 10px;
+    }
+
+    .container .projects .cards{
+        width: 100%;
+    }
+    .container .projects .cards .cardProjects{
+        width: 100%;        
+    }
+
+    /*-----------------------------------------*/
+
+    .container .formation {
+        margin-top: 10px;
+        height: 100%;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container .formation .text-formation {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+    .container .formation .text-formation .section-text{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .container .formation .text-formation .section-text div{
+        width: 100%;
+    }
+
 }

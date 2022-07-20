@@ -114,7 +114,7 @@ header .icons img{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: 125vh;
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.158);
     border-radius: 10px;
@@ -127,7 +127,8 @@ header .icons img{
     height: 100%;
 }
 
-.container .projects .cards .cardProjects{
+.container .projects .cards .cardProjects,
+.container .projects .cards .cardProjectsresponse{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -144,7 +145,7 @@ header .icons img{
     height: 20px;
     margin-bottom: 5px;
 }
-.container .projects .cards .cardProjects .embreve{
+.container .projects .cards .cardProjectsresponse .embreve{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -155,7 +156,7 @@ header .icons img{
     border-radius: 5px;
 }
 
-.container .projects .cards .cardProjects .load{
+.container .projects .cards .cardProjectsresponse .load{
     margin-top: 30px;
     width: 100px;
 }
@@ -176,7 +177,7 @@ header .icons img{
     flex-direction: column;
     align-items:center;
     width: 100%;
-    height: 50px;
+    height: 60px;
 }
 .container .projects .cards .cardProjects .footerCard .textCard{
     display: flex;
@@ -184,10 +185,8 @@ header .icons img{
     align-items: center;
     justify-content: center;
     text-align: center;
-
 }
-.projects .cards .cardProjects .footerCard button{
-    justify-content: end;
+.projects .cards .cardProjects button{
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -284,7 +283,7 @@ header .icons img{
         align-items: center;
         margin-top: 10px;
         width: 100%;
-        height: 2000px;
+        height: 1600px;
         margin-bottom: 10px;
     }
 
@@ -293,6 +292,9 @@ header .icons img{
     }
     .container .projects .cards .cardProjects{
         width: 100%;        
+    }
+    .container .projects .cards .cardProjectsresponse{
+        display: none;
     }
 
     /*-----------------------------------------*/

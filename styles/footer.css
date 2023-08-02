@@ -1,0 +1,22 @@
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: var(--color5);
+}
+
+footer .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+footer .container .icons img {
+    width: 30px;
+    margin: 10px 25px;
+}
+
+footer .container div p{
+    color: var(--color2);
+}
